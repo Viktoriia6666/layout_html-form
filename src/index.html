@@ -12,27 +12,27 @@
   </head>
   <body>
     <script type="text/javascript" src="./main.js"></script>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post" 
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"     method="post" 
     autocomplete="off">
       <fieldset class="form">
         <legend>Personal information</legend>
         <div class="form-field1">
-              Surname:
+          Surname:
           <label class="form-field">
-            <input type="text" name="surname">
+            <input type="text" name="surName">
           </label>
         </div>
         <div class="form-field">
-              Name:
+          Name:
           <label class="form-field">
-            <input type="text" name="name">
+            <input type="text" name="nameUser">
           </label>
         </div>
         <div class="form-field">
-              How old are You?
+          How old are You?
           <label class="form-field">
             <input type="number"
-              name="age" 
+              name="ageOld" 
               value="12" 
               min="1" 
               max="100"
@@ -40,17 +40,17 @@
           </label>
         </div>
         <div class="form-field">
-              Full date of birth:
+          Full date of birth:
           <label class="form-field">
-            <input type="date" name="date">
+            <input type="date" name="dateBirth">
           </label>
         </div>
         <div class="form-field">
           <label for="term-of-the-agreement">
-                I accept the term of the agreement
+            I accept the term of the agreement
             <input type="checkbox"
-                   name="agreement" 
-                   id="term-of-the-agreement"
+              name="agreementTheTerm" 
+              id="term-of-the-agreement"
             >
           </label>
         </div>
@@ -59,22 +59,22 @@
         <legend>Registration</legend>
         <div class="form-field1">
           <label class="form-registration">
-                E-mail:
+            E-mail:
             <input type="email"
-                   name="e-mail" 
-                   required 
-                   placeholder="email@example.com"
+              name="email" 
+              required 
+              placeholder="email@example.com"
             >
           </label>
         </div>
         <div class="form-field">
           <label class="form-registration">
-                Password:
+            Password:
             <input type="password"
-                   name="password"
-                   required
-                   maxlength="6"
-                   minlength="2"
+              name="password"
+              required
+              maxlength="6"
+              minlength="2"
             >
           </label>
         </div>
@@ -83,15 +83,15 @@
         <legend>An interesting fact about you!</legend>
         <div class="form-field1">
           <label class="form-field">
-                Do you love cats?
+            Do you love cats?
           </label>
           <input type="radio" 
-            name="cats"
+            name="catsLove"
             id="yes"
           >
           <label for="yes">Yes</label>
           <input type="radio" 
-            name="cats"
+            name="catsLove"
             id="no"
           >
           <label for="no">No</label>
@@ -105,18 +105,20 @@
           >
         </div>
         <div class="form-field">
-              What time do you go to bed?
+          What time do you go to bed?
           <label class="form-field">
-            <input type="time">
+            <input type="time"
+              name="timeToGo"
+            >
           </label>
         </div>
         <div class="form-field">
           <label for="cars">
-                What are your favorite brand of cars?
+            What are your favorite brand of cars?
           </label>
           <select id="cars" 
-                  name="brend" 
-                  multiple>
+            name="brendCars" 
+            multiple>
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
@@ -124,13 +126,13 @@
         </div>
         <div class="form-field">
           <label for="work">
-                How do you rate our work?
+            How do you rate our work?
             <input type="range"
-                   id="work" 
-                   name="work" 
-                   min="10" 
-                   max="100" 
-                   step="10"
+              id="work" 
+              name="work" 
+              min="10" 
+              max="100" 
+              step="10"
             >
           </label>
         </div>
@@ -139,23 +141,26 @@
         <legend>Additional info:</legend>
         <div class="form-field1">
           <label class="form-field">
-                Comments:
+            Comments:
             <textarea name="comments"></textarea>
           </label>
         </div>
         <div class="form-field">
           <label for="recommend">
-                Would you recommend us?
+            Would you recommend us?
           </label>
           <select id="recommend" name="recommend">
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
-              </label>
+          </label>
         </div>
       </fieldset>
       <div class="form-field2">
-        <button type="submit">Submit</button>
+        <button type="submit" 
+          name="submit">
+          Submit
+        </button>
       </div>
     </form>
   </body>
