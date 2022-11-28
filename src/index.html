@@ -2,8 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta
-      name="viewport"
+    <meta name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,15 +10,17 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
+    <!-- <h1>HTML Form</h1> -->
     <script type="text/javascript" src="./main.js"></script>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"     method="post" 
-    autocomplete="off">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="post" 
+      autocomplete="off">
       <fieldset class="form">
         <legend>Personal information</legend>
         <div class="form-field1">
           Surname:
           <label class="form-field">
-            <input type="text" name="surName">
+            <input type="text" name="surname">
           </label>
         </div>
         <div class="form-field">
@@ -31,7 +32,7 @@
         <div class="form-field">
           How old are You?
           <label class="form-field">
-            <input type="number"
+            <input type="number"  
               name="ageOld" 
               value="12" 
               min="1" 
@@ -48,8 +49,8 @@
         <div class="form-field">
           <label for="term-of-the-agreement">
             I accept the term of the agreement
-            <input type="checkbox"
-              name="agreementTheTerm" 
+            <input type="checkbox" 
+              name="agreementTheTerm"
               id="term-of-the-agreement"
             >
           </label>
@@ -60,9 +61,9 @@
         <div class="form-field1">
           <label class="form-registration">
             E-mail:
-            <input type="email"
+            <input type="email" 
               name="email" 
-              required 
+              required
               placeholder="email@example.com"
             >
           </label>
@@ -70,9 +71,9 @@
         <div class="form-field">
           <label class="form-registration">
             Password:
-            <input type="password"
-              name="password"
-              required
+            <input type="password" 
+              name="password" 
+              required 
               maxlength="6"
               minlength="2"
             >
@@ -86,39 +87,38 @@
             Do you love cats?
           </label>
           <input type="radio" 
-            name="catsLove"
+            name="catsLove" 
             id="yes"
           >
           <label for="yes">Yes</label>
           <input type="radio" 
-            name="catsLove"
+            name="catsLove" 
             id="no"
           >
           <label for="no">No</label>
         </div>
         <div class="form-field">
           <label for="favcolor">What is your favorite color?</label>
-          <input type="color"
-            id="favcolor"
-            name="favcolor"
+          <input type="color" 
+            id="favcolor" 
+            name="favcolor" 
             value="#000000"
           >
         </div>
         <div class="form-field">
           What time do you go to bed?
           <label class="form-field">
-            <input type="time"
-              name="timeToGo"
-            >
+            <input type="time" name="timeToGo">
           </label>
         </div>
         <div class="form-field">
           <label for="cars">
             What are your favorite brand of cars?
           </label>
-          <select id="cars" 
-            name="brendCars" 
-            multiple>
+          <select id="cars"
+            name="brendCars"
+            multiple
+          >
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
@@ -127,11 +127,11 @@
         <div class="form-field">
           <label for="work">
             How do you rate our work?
-            <input type="range"
+            <input type="range" 
               id="work" 
               name="work" 
               min="10" 
-              max="100" 
+              max="100"
               step="10"
             >
           </label>
@@ -157,8 +157,10 @@
         </div>
       </fieldset>
       <div class="form-field2">
-        <button type="submit" 
-          name="submit">
+        <button 
+          type="submit" 
+          name="submit"
+        >
           Submit
         </button>
       </div>
