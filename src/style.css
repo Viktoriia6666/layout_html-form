@@ -1,5 +1,5 @@
 /* styles go here */
-.form-field {
+.formField {
   padding-top: 10px;
 }
 
@@ -7,10 +7,10 @@
   margin-top: 8px;
 }
 
-.form2 {
+.formFildset {
   margin-top: 20px;
 }
 
-.form-field2 {
+.submit {
   margin-top: 20px;
 }

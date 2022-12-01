@@ -18,21 +18,21 @@
     >
       <fieldset class="form">
         <legend>Personal information</legend>
-        <div class="form-field1">
+        <div class="formForm">
           Surname:
-          <label class="form-field">
+          <label class="formField">
             <input type="text" name="surname">
           </label>
         </div>
-        <div class="form-field">
+        <div class="formField">
           Name:
-          <label class="form-field">
+          <label class="formField">
             <input type="text" name="nameUser">
           </label>
         </div>
-        <div class="form-field">
+        <div class="formField">
           How old are You?
-          <label class="form-field">
+          <label class="formField">
             <input type="number"  
               name="ageOld" 
               value="12" 
@@ -41,25 +41,26 @@
             >
           </label>
         </div>
-        <div class="form-field">
+        <div class="formField">
           Full date of birth:
-          <label class="form-field">
+          <label class="formField">
             <input type="date" name="dateBirth">
           </label>
         </div>
-        <div class="form-field">
+        <div class="formField">
           <label for="term-of-the-agreement">
             I accept the term of the agreement
-            <input type="checkbox" 
+            <input 
+              type="checkbox" 
               name="agreementTheTerm"
               id="term-of-the-agreement"
             >
           </label>
         </div>
       </fieldset>
-      <fieldset class="form2">
+      <fieldset class="formFildset">
         <legend>Registration</legend>
-        <div class="form-field1">
+        <div class="formForm">
           <label class="form-registration">
             E-mail:
             <input type="email" 
@@ -69,7 +70,7 @@
             >
           </label>
         </div>
-        <div class="form-field">
+        <div class="formField">
           <label class="form-registration">
             Password:
             <input type="password" 
@@ -81,10 +82,10 @@
           </label>
         </div>
       </fieldset>
-      <fieldset class="form2">
+      <fieldset class="formFildset">
         <legend>An interesting fact about you!</legend>
-        <div class="form-field1">
-          <label class="form-field">
+        <div class="formForm">
+          <label class="formField">
             Do you love cats?
           </label>
           <input type="radio" 
@@ -98,7 +99,7 @@
           >
           <label for="no">No</label>
         </div>
-        <div class="form-field">
+        <div class="formField">
           <label for="favcolor">What is your favorite color?</label>
           <input type="color" 
             id="favcolor" 
@@ -106,13 +107,13 @@
             value="#000000"
           >
         </div>
-        <div class="form-field">
+        <div class="formField">
           What time do you go to bed?
-          <label class="form-field">
+          <label class="formField">
             <input type="time" name="timeToGo">
           </label>
         </div>
-        <div class="form-field">
+        <div class="formField">
           <label for="cars">
             What are your favorite brand of cars?
           </label>
@@ -125,7 +126,7 @@
             <option value="Lada">Lada</option>
           </select>
         </div>
-        <div class="form-field">
+        <div class="formField">
           <label for="work">
             How do you rate our work?
             <input type="range" 
@@ -138,15 +139,14 @@
           </label>
         </div>
       </fieldset>
-      <fieldset class="form2">
+      <fieldset class="formFildset">
         <legend>Additional info:</legend>
-        <div class="form-field1">
-          <label class="form-field">
+        <div class="formForm">
             Comments:
-            <textarea name="comments"></textarea>
+          <textarea name="comments"></textarea>
           </label>
         </div>
-        <div class="form-field">
+        <div class="formField">
           <label for="recommend">
             Would you recommend us?
           </label>
@@ -157,7 +157,7 @@
           </label>
         </div>
       </fieldset>
-      <div class="form-field2">
+      <div class="submit">
         <button 
           type="submit" 
           name="submit"
