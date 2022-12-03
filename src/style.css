@@ -1,16 +1,24 @@
-/* styles go here */
+/* styles go here
 .formField {
   padding-top: 10px;
-}
+} */
 
-.form {
+/* .form {
   margin-top: 8px;
+} */
+
+/* .formFildset {
+  margin-top: 20px;
+} */
+
+/* .submit {
+  margin-top: 20px;
+} */
+
+.formField:not(:last-child) {
+  margin-bottom: 10px;
 }
 
-.formFildset {
-  margin-top: 20px;
-}
-
-.submit {
-  margin-top: 20px;
+fieldset {
+  margin-bottom: 20px;
 }
